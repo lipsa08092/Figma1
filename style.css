@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: white;
+    padding: 20px 80px
+}
+.logo{
+    font-size: 20px;
+}
+.navbar ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: black;
+}
+.navbar button{
+    padding: 2px 15px;
+    background-color: forestgreen;
+    color: white;
+    border: 0 solid white;
+}
+.lessons-content{
+    /* height: 500px; */
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(245, 243, 241);
+    color: black;
+}
+.content-text{
+    width: 500px;
+}
+.content-text h1{
+    font-size: 35px;
+}
+.content-text p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.content-text button{
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+}
+
+.content-imge img{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(243, 243, 225);
+}
+.clients-section{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.clients-section h1{
+    margin: 0;
+    font-size: 30px;
+    color: #444;
+}
+.clients-section p{
+    margin-top: 8px 0 28px;
+    font-size: 14px;
+    color: #444;
+}
+.clients-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 18px 40px;
+    margin: 6px 0 36px;
+    overflow-x: auto;
+}
+
+.clients-logo img{
+    height: 40px;
+    width: auto;
+    opacity: .95;
+
+}
+.hero{
+    text-align:center;
+    margin: 18px 0 24px;
+    }
+.hero h1{
+    margin:0;
+    font-size:36px;
+    line-height:1.05;
+    font-weight:700;
+    color:#444;
+}
+.hero .sub{
+    margin-top:10px;
+    color: #444;
+    font-size:14px;
+}
+.cards{
+    margin-top:28px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:28px;
+    align-items:stretch;
+}
+
+.card{
+    background:#fff;
+    border-radius:10px;
+    padding:26px;
+    text-align:center;
+    min-height:210px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    border:1px solid rgba(12,18,26,0.04);
+}
+
+.card .icon{
+    width:56px;
+    height:56px;
+    margin:0 auto 12px;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:22px;
+    color:#2b6a3b;
+    }
+
+.card h3{
+    margin:8px 0 10px;
+    font-size:20px;
+    color:#333;
+    line-height:1.15;
+}
+.card p{
+    margin:0;
+    color: #444;
+    font-size:13px;
+    line-height:1.45;
+}
+
+
+.unseen-content{
+    /* height: 500px; */
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+}
+.unseen-imge{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(243, 243, 225);
+}
+.unseen-text{
+    width: 500px;
+}
+.unseen-text h1{
+    font-size: 35px;
+}
+.unseen-text p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(121, 116, 116);
+}
+.unseen-text button{
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+}
+
+
+.hero-panel{
+    margin-top: 20px;
+    background:  rgb(245, 243, 241);
+    padding: 40px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+/* Left column */
+.intro{
+    flex: 1 1 48%;
+    background-color: whitesmoke;
+    margin-left: 60px;
+}
+h1{
+    margin: 0 0 14px 0;
+    font-size: 34px;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+}
+h1 .accent{
+    color: #444;
+    display:inline-block; }
+p.lead{
+    margin:0;
+    color: #444;
+    font-size: 15px;
+}
+
+.right-logo{
+    flex: 1 1 48%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px 28px;
+    align-items: center;
+    justify-items: start;
+}
+.stat{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    min-width: 0;
+}
+.icon{
+    width:56px;
+    height:56px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background: linear-gradient(180deg, rgba(55,168,58,0.06), rgba(55,168,58,0.02));
+    flex-shrink:0;
+}
+.stat .num{
+    font-size:20px;
+    font-weight:700;
+    color:#444;
+    line-height:1;
+    }
+.stat .label{
+    font-size:13px;
+    color: #444;
+    margin-top:4px;
+}
+.stat-text{
+    display:flex;
+    flex-direction:column;
+    min-width:0;
+}
+.design-content{
+    /* margin-top: 0px; */
+    /* height: 200px; */
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+}
+.design-imge{
+    /* height: 200px; */
+    width: 100px;
+    background-color: rgb(243, 243, 225);
+}
+.design-text{
+    width: 500px;
+    gap: 30px;
+}
+.design-text h1{
+    margin-top: 30px;
+    font-size: 35px;
+}
+.design-text p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(121, 116, 116);
+}
+.design-text button{
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+}
+
+
+.testimonial {
+    background: whitesmoke;
+    border-radius: 12px;
+    padding: 28px;
+    display: flex;
+    gap: 28px;
+    align-items: flex-start;
+}
+
+/* left image */
+.avatar {
+    flex:0 0 250px;
+    /* width: 140px; */
+    margin-left: 50px;
+}
+
+.avatar .img-wrap{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.04);
+    background: #07121a;
+}
+.img-wrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* right content */
+.content{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote {
+    color: #57606a;
+    line-height: 1.6;
+    font-size: 15px;
+    width: 85%;
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.name {
+    color: green;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.role {
+    color: #444;
+    font-size: 13px;
+}
+
+.icons-row {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 6px;
+    flex-wrap: wrap;
+}
+.icon {
+    width: 34px;
+    height: 34px;
+    display: inline-grid;
+    place-items: center;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.04);
+}
+.cta {
+    color: green;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 6px ;
+    font-size: 15px;
+}
+
+
+.container{
+    margin-top: 20px;
+}
+#hero{
+    text-align: center;
+    margin-bottom: 36px;
+    padding-top: 6px;
+}
+#hero h1{
+    font-size: 2rem;
+    letter-spacing: -0.02em;
+    margin-bottom: 12px;
+    color: #3a3a3a;
+}
+#hero .sub{
+    max-width: 880px;
+    margin: 0 auto;
+    color:#444;
+    font-size: 15px;
+}
+
+#cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+.card-media{
+    position: relative;
+    border-radius: 5px;
+}
+.card-image{
+    width: 350px;
+    height: 220px;
+    border-radius: 5px;
+    margin-left:35px;
+    margin-right: 30px;
+
+}
+.card-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-info{
+    width: 250px;
+    position: absolute;
+    left: 60px;
+    bottom: -25px;
+    background: whitesmoke;
+    border-radius: 12px;
+    padding: 18px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.card-info h3{
+    font-size: 1rem;
+    color: #404040;
+    line-height: 1.22;
+    font-weight: 600;
+    margin: 0;
+    max-height: 2.7em; /* clamp to ~2 lines */
+    overflow: hidden;
+}
+.readmore{
+    color: #444;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+.card::after{
+    content: "";
+    display: block;
+    height: 48px;
+}
+.demo-section{
+    margin-top: 80px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.demo-section h1{
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.demo-section button{
+    margin-top: 18px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+}
